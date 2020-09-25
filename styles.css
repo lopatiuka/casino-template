@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'Montserrat'; 
+    src: url(fonts/Montserrat-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+svg text{
+    font-family: 'Montserrat';
+}
+
+body{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    background-color: #181818;
+}
+
+.logo{
+    height: 50px;
+}
+
+.header{
+    height: 75px;
+}
+
+.main-image{
+    height: 504px;
+}
+
+.bonus{
+    height: auto;
+    margin-top: 20px;
+}
+
+.cupon{
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.icon{
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.icon button{
+    width: 60px;
+    height: 30px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFCA30;
+    background-color: inherit;
+    border: none;
+}
+
+.icon button:hover{
+    cursor: pointer;
+}
+
+.icon div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 480px;
+}
+
+.icon .inner-div{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.cta{
+    height: 100px;
+}
+
+.cta a{
+    height: 52px;
+    width: 238px;
+    border-radius: 35px;
+    background: #FFCA30;
+    border: none;
+    font-family: "Montserrat";
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.cta div:nth-child(2){
+    background-color: #ffcb2c;
+}
+
+.ribbon{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 78px;
+    background-color: #ffcb2c;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.ribbon div{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ribbon img{
+    margin-right: 20px;
+}
+
+.ribbon img{
+    height: 48px;
+}
+
+.trust{
+    height: 212px;
+}
+
+.trust div{
+    width: 400px;
+    justify-content: space-between;
+}
+
+.footer{
+    height: 106px;
+    background-color: #383838;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footer p{
+    font-family: "Montserrat";
+    font-size: 14px;
+    line-height: 17px;
+    color: #AAAAAA;
+}
+
+.footer p span{
+    color: rgb(0, 217, 255);
+}
+
+.footer p:first-child{
+    margin-bottom: 0;
+}  
+
+
